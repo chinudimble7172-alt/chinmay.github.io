@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowBeauty - Cosmetics</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: CityBlueprint,san serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: #ffc0cb;
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+ 
+    nav {
+      background: white;
+       display: flex;
+      justify-content: space-between;
+      align-items: center;
+       padding: 15px 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav .logo {
+      font-size: 1.8rem;
+       font-weight: bold;
+      color: #e91e63;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #e91e63;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #ffe4e1;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #d63384;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #555;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background: #d63384;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ad1457;
+    }
+
+    .features {
+      padding: 60px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      background: #fff;
+    }
+
+    .feature {
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .feature img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+   }
+    .feature h3 {
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f8f8f8;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo"><i>VELOURA</i></div><br>
+    
+<ul>
+<li>HOME</li>
+<li>ABOUT US</li>
+<li>CONTACT US </li>
+  </nav>
+
+  <header>
+    <h1>GLOW WITH CONFIDENCE
+</h1>
+    <p>Discover skincare and cosmetics designed to enhance your natural beauty.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Luxury Cosmetics, Affordable Elegance</h2>
+    <p>Explore our latest collection of cruelty-free makeup and skincare essentials crafted for every skin type.</p>
+    
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="lipstick.jpeg" alt="lipstick">
+      <h3>Vibrant Lipsticks</h3>
+      <p>Long-lasting, bold colors that keep your lips moisturized all day.</p>
+    <br>
+<a href="lip.html" ></a>
+<a href="lip.html" class="btn" >shop now</a> 
+</div>
+    <div class="feature">
+      <img src="foundation.jpeg" alt="foundation">
+      <h3>Flawless Foundation</h3>
+      <p>Natural finish formulas to give you that airbrushed glow.</p>
+<br>  
+ <a href="found.html" class="btn">Shop Now</a>
+ </div>
+    <div class="feature">
+      <img src="simple.jpeg" alt="simple">
+      <h3>Gentle Skincare</h3>
+      <p>Hydrating and nourishing solutions tailored for your skin.</p>
+    <br>
+<a href="skin.html" class="btn">Shop Now</a>
+
+</div>
+<a href="login.html"></a>
+</section>
+  <footer>
+    &copy; 2025 GlowBeauty. All rights reserved.
+  </footer>
+</body>
+</html>
